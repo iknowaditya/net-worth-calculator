@@ -19,7 +19,8 @@ connectDB(process.env.MONGO_URI)
 
 // cors for cross origin allowance
 const corsOptions = {
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173",
+  origin: "https://net-worth-calculator-frontend.vercel.app",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };

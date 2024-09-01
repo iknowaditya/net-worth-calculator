@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 100% 6%;
+    --foreground: 180 100% 90%;
+    --primary: 200 100% 28%;
+    --primary-foreground: 180 100% 90%;
+    --secondary: 203 23% 30%;
+    --secondary-foreground: 180 100% 90%;
+    --accent: 198 70% 50%;
+    --accent-foreground: 185 10% 13%;
+    --destructive: 0 98% 44%;
+    --destructive-foreground: 0 0% 100%;
+    --muted: 200 50% 30%;
+    --muted-foreground: 180 100% 90%;
+    --card: 210 100% 12%;
+    --card-foreground: 180 100% 90%;
+    --popover: 210 100% 15%;
+    --popover-foreground: 180 100% 90%;
+    --border: 210 50% 40%;
+    --input: 210 50% 40%;
+    --ring: 180 100% 90%;
+    --radius: 0rem;
+    --font-heading: "Bricolage Grotesque", Latin, sans-serif;
+    --font-body: "Space Mono", Latin, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  input {
+    @apply bg-background text-foreground;
+  }
+
+  button {
+    @apply bg-background text-foreground;
+  }
+
+  a {
+    @apply text-foreground;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg bg-primary text-primary-foreground;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground;
+  }
+
+  .btn-accent {
+    @apply bg-accent text-accent-foreground;
+  }
+
+  .btn-destructive {
+    @apply bg-destructive text-destructive-foreground;
+  }
+
+  .btn-muted {
+    @apply bg-muted text-muted-foreground;
+  }
+
+  .btn-card {
+    @apply bg-card text-card-foreground;
+  }
+
+  .btn-popover {
+    @apply bg-popover text-popover-foreground;
+  }
+
+  .btn-border {
+    @apply border border-border;
+  }
+
+  .btn-ring {
+    @apply ring ring-ring;
+  }
+
+  .btn-radius {
+    @apply rounded-full;
+  }
+}

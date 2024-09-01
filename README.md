@@ -139,13 +139,13 @@ The **Net Worth Calculator** application provides several RESTful API endpoints 
 ## Screenshots
 
 
-![App Screenshot](https://github.com/iknowaditya/URLshortener-app/assets/97401096/df7fb33e-a458-4e99-8434-66be44815028)
+![Screenshot 2024-09-01 173520](https://github.com/user-attachments/assets/0e3962dc-82aa-40ed-97f9-68a8fa45652c)
 
-![App Screenshot](https://github.com/iknowaditya/URLshortener-app/assets/97401096/983f4e72-48dc-47d5-b15d-12d56aef5d52)
+![Screenshot 2024-09-01 173444](https://github.com/user-attachments/assets/5592bede-67a1-4103-b117-bbf10fd193de)
 
-![App Screenshot](https://github.com/iknowaditya/URLshortener-app/assets/97401096/983f4e72-48dc-47d5-b15d-12d56aef5d52)
+![Screenshot 2024-09-01 173808](https://github.com/user-attachments/assets/174f1f46-6707-43db-8c7b-c44ccc6bd242)
 
-![App Screenshot](https://github.com/iknowaditya/URLshortener-app/assets/97401096/983f4e72-48dc-47d5-b15d-12d56aef5d52)
+
 ## Usage
 
 Here’s how to use the **Net Worth Calculator** application, including examples for both the frontend and backend.

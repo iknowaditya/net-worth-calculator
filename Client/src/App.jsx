@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NetWorthCalculator from "./components/NetWorthCalculator ";
-import Hero from "./components/Hero";
-import Login from "./components/login";
-import Register from "./components/register";
+import NetWorthCalculator from "./Components/NetWorthCalculator ";
+import Hero from "./Components/Hero";
+import Login from "./Components/login";
+import Register from "./Components/register";
 import { Toaster } from "react-hot-toast";
 
 const App = () => {
